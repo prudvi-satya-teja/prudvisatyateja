@@ -22,7 +22,7 @@ const Contact = () => {
 
         try {
             const response = await fetch(
-                "https://portfolio-backend-n8lx.onrender.com/api/contact",
+                "http://localhost:5000/api/contact",
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
