@@ -5,24 +5,24 @@ import { Github, Server, Globe } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Blood Donation Website",
-      subtitle: "Full-Stack Developer | React.js, MongoDB, Express.js, Socket.IO",
-      description: [
-        "Automated blood donation camp management, reducing manual record-keeping effort by 80%",
-        "Displayed live donor statistics using Socket.IO, improving transparency and boosting engagement",
-        "Enabled OTP-based pre-registration and donor authentication, ensuring secure and smooth onboarding",
-        "Visualized donation metrics with interactive graphs; added exportable reports to support data-driven planning",
-        "Designed a responsive UI showcasing camp info, awareness content, infographics, and gallery"
-      ],
-      technologies: ["React.js", "MongoDB", "Express.js", "Socket.IO"],
-      icon: <Globe className="w-5 h-5" />,
-      github: "https://blooddonation-project.vercel.app/",
-      linkType: "live" as const
-    },
+    // {
+    //   title: "Blood Donation Website",
+    //   subtitle: "Full-Stack Developer | React.js, MongoDB, Express.js, Socket.IO",
+    //   description: [
+    //     "Automated blood donation camp management, reducing manual record-keeping effort by 80%",
+    //     "Displayed live donor statistics using Socket.IO, improving transparency and boosting engagement",
+    //     "Enabled OTP-based pre-registration and donor authentication, ensuring secure and smooth onboarding",
+    //     "Visualized donation metrics with interactive graphs; added exportable reports to support data-driven planning",
+    //     "Designed a responsive UI showcasing camp info, awareness content, infographics, and gallery"
+    //   ],
+    //   technologies: ["React.js", "MongoDB", "Express.js", "Socket.IO"],
+    //   icon: <Globe className="w-5 h-5" />,
+    //   github: "https://blooddonation-project.vercel.app/",
+    //   linkType: "live" as const
+    // },
     {
       title: "College Clubs Management App",
-      subtitle: "Backend Developer | Node.js, Express, MongoDB",
+      subtitle: "Backend Developer | OAuth, Spring Data JPA, Spring Security, MySQL",
       description: [
         "Developed core functionalities for event scheduling and club membership management to streamline communication and operations",
         "Designed RESTful APIs to facilitate efficient data handling and ensure smooth integration with the frontend",
@@ -30,8 +30,8 @@ const Projects = () => {
       ],
       technologies: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
       icon: <Server className="w-5 h-5" />,
-      github: "https://github.com/prudvi-satya-teja/aclub",
-      linkType: "github" as const
+      // github: "https://github.com/prudvi-satya-teja/aclub",
+      // linkType: "github" as const
     },
     {
       title: "Leez Connect",
