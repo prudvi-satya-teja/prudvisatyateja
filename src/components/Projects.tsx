@@ -24,12 +24,13 @@ const Projects = () => {
       title: "College Clubs Management App",
       subtitle: "Backend Developer | OAuth, Spring Data JPA, Spring Security, MySQL",
       description: [
-        "Developed core functionalities for event scheduling and club membership management to streamline communication and operations",
-        "Designed RESTful APIs to facilitate efficient data handling and ensure smooth integration with the frontend",
-        "Utilized MongoDB to create a scalable and optimised database structure for reliable data storage and fast retrieval"
+        "Built backend modules for event scheduling and club membership management using Java and Spring Boot."
+        "Designed and implemented RESTful APIs with Spring MVC to enable efficient data exchange and seamless frontend integration."
+        "Developed a scalable and optimized data layer using MySQL with Spring Data, ensuring reliable persistence and fast query performance."
+        "Implemented JWT-based authentication and role-based authorization using Spring Security, providing finegrained access control for admins, members, and participants"
       ],
-      technologies: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
-      icon: <Server className="w-5 h-5" />
+      technologies: ["Spring Boot", "Spring Security", "MySQL", "REST APIs"]
+      // icon: <Server className="w-5 h-5" />
       // github: "https://github.com/prudvi-satya-teja/aclub",
       // linkType: "github" as const
     },
