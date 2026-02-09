@@ -29,7 +29,7 @@ const Projects = () => {
         "Utilized MongoDB to create a scalable and optimised database structure for reliable data storage and fast retrieval"
       ],
       technologies: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
-      icon: <Server className="w-5 h-5" />,
+      icon: <Server className="w-5 h-5" />
       // github: "https://github.com/prudvi-satya-teja/aclub",
       // linkType: "github" as const
     },
