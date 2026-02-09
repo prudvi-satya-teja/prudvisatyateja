@@ -24,9 +24,9 @@ const Projects = () => {
       title: "College Clubs Management App",
       subtitle: "Backend Developer | OAuth, Spring Data JPA, Spring Security, MySQL",
       description: [
-        "Built backend modules for event scheduling and club membership management using Java and Spring Boot."
-        "Designed and implemented RESTful APIs with Spring MVC to enable efficient data exchange and seamless frontend integration."
-        "Developed a scalable and optimized data layer using MySQL with Spring Data, ensuring reliable persistence and fast query performance."
+        "Built backend modules for event scheduling and club membership management using Java and Spring Boot.",
+        "Designed and implemented RESTful APIs with Spring MVC to enable efficient data exchange and seamless frontend integration.",
+        "Developed a scalable and optimized data layer using MySQL with Spring Data, ensuring reliable persistence and fast query performance.",
         "Implemented JWT-based authentication and role-based authorization using Spring Security, providing finegrained access control for admins, members, and participants"
       ],
       technologies: ["Spring Boot", "Spring Security", "MySQL", "REST APIs"]
